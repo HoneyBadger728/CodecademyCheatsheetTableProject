@@ -1,0 +1,62 @@
+* {
+    font-family: "Teko";
+    font-weight: 700;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#nav {
+    width: 100%;
+    float: left;
+    margin: 0 0 1em 0;
+    padding: 0;
+    background-color: cyan;
+    border-bottom: 1px solid black;
+    position: fixed;
+}
+
+#nav ul {
+    list-style: none;
+    text-decoration: none;
+    width: 20%;
+    margin: 0 auto;
+}
+
+#nav li {
+    display: block;
+    border: 1px solid black;
+    padding: .2em .2em;
+    font-size: 1.0vw;
+    overflow: hidden;
+    float: left;
+    text-align: center;
+    margin: 0;
+    background-color: cyan;
+    
+   
+}
+
+#nav li a {
+    display : block;
+    color : black;
+    text-align : center;
+    text-decoration: none;
+}
+
+
+.banner {
+    text-align:center;
+    font-size: 65px;
+    padding: 1.0em;
+    background-image: url("../Images/shutterstock_402724045.jpg");
+    background-size: cover;
+    border: none;
+    color: khaki;
+    padding-top: 120px;
+    
+}
+
