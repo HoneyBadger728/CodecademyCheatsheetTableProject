@@ -7,6 +7,7 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: khaki;
 }
 
 #nav {
@@ -65,4 +66,25 @@ body {
 
 p {
     font-family: 'Times New Roman', Times, serif;
+    padding: 20;
+}
+
+img {
+    display: block;
+    width: 25%;
+    margin: 50px auto;
+}
+
+#finaltable {
+    width: 60% !important;
+}
+
+h2 {
+    background-color: cyan !important;
+    padding-left: 5;
+
+}
+
+h3 {
+    padding-left: 10;
 }
