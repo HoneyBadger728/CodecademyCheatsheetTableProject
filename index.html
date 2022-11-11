@@ -1,7 +1,7 @@
 <html>
     <head>
         <title>Blake's Off-Site Cheatsheet Project</title>
-        <link rel="stylesheet" href="Resources/CSS/styles.css">
+        <link rel="stylesheet" href="./Resources/CSS/styles.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Teko:wght@400;700&display=swap" rel="stylesheet">
@@ -23,8 +23,64 @@
             </ul>
        </div>
     
+
        <h1 class="banner">Effectively creating tables using HTML and CSS</h1>
         
+       <div id="About">
+            <h2>About</h2>
+                <p>Creating tables in html is simply a means of organizing information into colums and rows.
+                    Presenting the information in this manner can allow the reader to more easily understand a set of data.
+                    Calendars, experiment results, schedules and tracking information are all exaples of data which is well suited to be presented in a table.
+                    This site will explain how to create various tables, provide examples, and detail the necessary steps (and information) for creating tables.
+                    This guide should serve as a point of reference for those seeking to create their own tables.        
+        
+        
+                </p>
+
+       </div>
+
+       <div id="Tags">
+            <h2>Tags</h2>
+                <p>The first key piece of information, when it comes to creating tables, is becoming familiar with the fundamental <strong>&lt;tags&gt;</strong>. 
+                    Below is a list of useful <strong>&lt;tags&gt;</strong>, along with a brief description. Examples are provided in the following section.</p>
+                <h3>1.&lt;table&gt;</h3>
+                    <p>This element indicates that the data is to be represented in a series of rows and columns. This data will be defined within this element.</p>
+
+                <h3>2.&lt;caption&gt;</h3>
+                    <p>The caption element allows for the creation of a title for the table. This will give context to the data being presented.</p>
+                <h3>3.&lt;thead&gt;</h3>
+                    <p>This tag is used to set up the first row of the table. The information presented here will act as the headings for each of the various columns in the table.</p>
+                <h3>4.&lt;tbody&gt;</h3>
+                    <p>Once the headings are defined, the rest of the data will go in the body of the table. This element separates the body from the headings.</p>
+                <h3>5.&lt;tfoot&gt;</h3>
+                    <p>After the heading section and the body section, the foot section can be set aside to summarize the data presented in the table.</p>
+                <h3>6.&lt;tr&gt;</h3>
+                    <p>This tag indicates a row within the table. It will act as the parent element for data within that row.</p>
+                <h3>7.&lt;th&gt;</h3>
+                    <p>This element indicates that the data entered will act as a heading. It will either be placed within the &lt;thead&gt; element or as the first entry within a row. </p>
+                <h3>8.&lt;td&gt;</h3>
+                    <p>This tag allows for the defining of raw data, within the table.</p>
+                
+        </div>
+    
+        <div id="Examples">
+            <h2>Examples</h2>
+                <p>The first step is to set up the code to enter the table data. This should look like the following image:</p>
+                <img src="Resources\Images\TableSetup.jpg" alt="Html code that is set to create a table">
+                <p>The next step is to create the heading for the table as pictured below:</p>
+                <img src="Resources\Images\TableHeadCode.jpg" alt="Creating the headings for the table in html code">
+                <p>The entered heading will display in a webpage as the image below:</p>
+                <img src="Resources\Images\TableHeadDisplay.jpg" alt="What the heading code will display on a webpage">
+                <p>After the heading, the body data is entered as shown in the code below:</p>
+                <img src="Resources\Images\TableBodyCode.jpg" alt="Coding the data for the body of the table">
+                <p>The code for the heading and body data will display as follows:</p>
+                <img src="Resources\Images\TableBodyDisplay.jpg" alt="Table displayed with the body data coded">
+                <p>The final aspect of creating a table is entering the data for the foot portion of the table:</p>
+                <img src="Resources\Images\TableFootCode.jpg" alt="Coding the foot of the table in html">
+                <p>If everything has been entered correctly, the table should display as follows:</p>
+                <img src="Resources\Images\TableFootDisplay.jpg" alt="Displayed table complete with foot data entered">
+        </div>
+    
     </body>
 
 </html>
